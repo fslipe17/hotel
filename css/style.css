@@ -74,18 +74,25 @@ main{
 
 .div-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     margin: 0 auto;
-
+    height: 300px;
 }
 
 .grid-recomendado{
-    width: 3%;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    margin: 12px;
 }
 
+.grid-imgs{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
 /* .banner-img{
     border-radius: 20px;
     
