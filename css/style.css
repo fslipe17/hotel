@@ -147,9 +147,23 @@ main{
     margin: 12px;
     padding: 10px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0 , 0.8);
+    background-color: rgba(0, 0, 0 , 0.9);
     color: white;
     position: relative;
+    z-index: +1;
+}
+
+.planodefundo{
+    display: block;
+    margin: 0 95px 0 95px;
+    z-index: -1;
+    position: absolute;
+    height: 600px;
+    width: 90%;
+    border: 2px solid rgba(0, 0, 0 , 0.9);
+    border-radius: 38px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
 }
 
 .grid-imgs{
