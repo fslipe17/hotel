@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/planoviagem.css">
+    <title>Palace Restreat's | Home</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="nome">
+            <img class="icone" src="../img/cologne_5614770.png" alt="Icone de um Palacio">
+            <p class="palace">Palace Restreat's</p>
+        </a>
+
+        <nav>
+            <div class="nav-div">
+                <a class="fav" href="../index.html">Recomendados</a>
+
+                <a class="fav" href="../index.html">Favoritos</a>
+
+                <a class="fav" href="../index.html">Home</a>
+
+                <a class="fav" href="../index.html">Ajuda e Suporte</a>
+            </div>
+        </nav>
+         
+        <div class="botao">
+            <a class="Entrar" href="./html/login.html">Entrar</a>
+
+            <a class="cadastrar" href="./html/cadastro.html">Cadastre-se</a>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Crie seu Plano de Viagem</h1>
+        
+            <div class="input-group">
+              <label for="destino">Destino:</label>
+              <input type="text" id="destino" placeholder="Digite o destino">
+            </div>
+        
+            <div class="input-group">
+              <label for="data-inicio">Data de Início:</label>
+              <input type="date" id="data-inicio">
+            </div>
+        
+            <div class="input-group">
+              <label for="data-fim">Data do Fim:</label>
+              <input type="date" id="data-fim">
+            </div>
+        
+            <div class="input-group">
+              <label for="n-pessoas">Número de Pessoas:</label>
+              <select id="n-pessoas">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6 ou Mais</option>
+
+              </select>
+            </div>
+        
+            <button>Criar Plano de Viagem</button>
+          </div>
+        
+    </main>
+
+    <footer>
+        <div class="div-icone-footer">
+            <img class="icone-footer" src="../img/cologne_5614770.png" alt="icone representando a logo">
+            <p>&copy; PalaceRetreat's 2024, Inc.</p>
+        </div>
+    </footer>
+
+    <script src="../js/planodeviage.js"></script>
+</body>
+</html>
