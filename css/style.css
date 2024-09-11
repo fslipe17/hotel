@@ -268,11 +268,14 @@ p{
 /* Botao Informações */
 .info{
     border: 0.1px solid rgba(0, 0, 0 , 0.5);
+    background-color: aliceblue;
     border-radius: 8px;
     height: 28px;
     font-weight: 500;
     margin-top: 20px;
     cursor: pointer;
+    color: black;
+    text-align: center;
 }
 .info:hover{
     color: white;
