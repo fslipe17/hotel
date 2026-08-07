@@ -111,31 +111,61 @@ nav-div{
 
 /* Fim do Header */
 
-main{
-    display: grid;
-    grid-template-columns: 2fr 300px;
-    margin-top: 20px;
-    margin: 0 auto;
-    height: 2000px;
+main {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espaço entre o conteúdo principal e a barra lateral */
+    width: 100%;
+    margin: 20px auto 0;
+    height: fit-content;
 }
 
-.imagens-grid-blueTree{
+/* Coluna esquerda que agrupa o Título e o Grid de Imagens */
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    width: 920px; /* Mesma largura exata da grid de imagens */
+}
+
+.info {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left; /* Garante que o H2 fique perfeitamente alinhado com o início do grid */
+}
+
+.div-inferno {
+    display: flex;
+    flex-direction: column;
+    width: 920px; /* Mesma largura exata da grid de imagens */
+}
+
+.imagens-grid-blueTree {
     display: grid;
-    width: 600px;
-    height: 300px;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    height: 610px;
+    grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(2, 300px);
+}
+
+/* Estilo da Barra Lateral */
+.sidebar {
+    width: 300px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 12px;
+    height: fit-content; /* Ajusta a altura de acordo com o conteúdo */
 }
 
 .grid-blueTREE-images{
     width: 300px;
     height: 300px;
     border-radius: 12px;
+
 }
-#img1 {
-    grid-row: span 2; /* occupy two rows */
-    height: 600px;
-    width: 600px;
+
+#img4{
+    object-fit: cover;
 }
 
 /* Footer */
